@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-RUN Sudo get update
 RUN mkdir /app/devops
 COPY . /app/devops
 ENTRYPOINT app/index/santhosh
